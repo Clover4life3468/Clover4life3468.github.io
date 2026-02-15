@@ -41,6 +41,7 @@ body{
 }
 
 .button{
+    position:absolute;
     display: flex;
     background-color: rgb(233, 233, 233);
     width: fit-content;
@@ -194,10 +195,11 @@ label[for="dropdowns"]{
 
 .buttontwo{
     position:absolute;
+    margin-top: 3%;
     background-color: rgb(233, 233, 233);
     width: fit-content;
     padding: 1%;
-    margin-left: 30%;
+    margin-left: 25%;
     border: rgb(37, 37, 37) solid 2px;
     transition: transform 0.35s ease-out;
         a:link, a:visited, a:hover, a:active{
@@ -211,6 +213,7 @@ label[for="dropdowns"]{
 
 #extralinks{
     margin-top: 1%;
+    z-index: 2;
     font-family: cursive;
     position: absolute;
     margin-left: 70%;
@@ -242,7 +245,7 @@ label[for="dropdowns"]{
 
 
 .dropdowncontent:hover{
-    background-color: rgb(224, 250, 214);
+    background-color: hsla(103, 78%, 91%, 0.603);
     color: rgb(37, 41, 31);
 }
 
@@ -252,4 +255,73 @@ label[for="dropdowns"]{
 
 #extralinks:hover #dropdowncontent{
     display: block;
+}
+
+.buttonthree{
+    margin-top: 3%;
+    position:absolute;
+    background-color: rgb(233, 233, 233);
+    width: fit-content;
+    padding: 1%;
+    margin-left: 48%;
+    border: rgb(37, 37, 37) solid 2px;
+    transition: transform 0.35s ease-out;
+        a:link, a:visited, a:hover, a:active{
+            color: rgb(29, 28, 37);
+        }
+    }
+    .buttonthree:hover{
+        background-color: rgb(224, 250, 214);
+        transform: scale(1.1);
+    }
+
+.buttonfour{
+    margin-top: 3%;
+    position:absolute;
+    background-color: rgb(233, 233, 233);
+    width: fit-content;
+    padding: 1%;
+    margin-left: 73%;
+    border: rgb(37, 37, 37) solid 2px;
+    transition: transform 0.35s ease-out;
+    z-index: 1;
+        a:link, a:visited, a:hover, a:active{
+            color: rgb(29, 28, 37);
+        }
+    }
+    .buttonfour:hover{
+        background-color: rgb(224, 250, 214);
+        transform: scale(1.1);
+    }
+
+.buttonfive{
+    position:absolute;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    width: fit-content;
+    padding: 1%;
+    margin: 3%;
+    margin-top: 18%;
+    border: rgb(37, 37, 37) solid 2px;
+    transition: transform 0.35s ease-out;
+        a:link, a:visited, a:hover, a:active{
+            color: rgb(29, 28, 37);
+        }
+    }
+    .buttonfive:hover{
+        background-color: rgb(224, 250, 214);
+        transform: scale(1.1);
+    }
+
+#endtext{
+    display: inline-block;
+    margin-top: 30%;
+}
+
+#nobackground{
+    background-color: rgb(255, 255, 255);
+}
+
+#stopreadingthistext{
+    all: unset;
 }
